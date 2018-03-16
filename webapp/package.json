@@ -1,0 +1,22 @@
+{
+  "name": "prabhaav",
+  "version": "1.0.0",
+  "description": "Prabhaav",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyeshtiwari23/Prabhaav.git"
+  },
+  "keywords": [
+    "prabhaav"
+  ],
+  "author": "team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suyeshtiwari23/Prabhaav/issues"
+  },
+  "homepage": "https://github.com/suyeshtiwari23/Prabhaav#readme"
+}
