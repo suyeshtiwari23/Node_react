@@ -16,6 +16,7 @@ const ColorBox = styled('div')`
     width: 100px;
     background-color: ${props => props.color ? props.color : ''};
     margin: 0 20px;
+    border: 1px solid #DDD;
 `
 
 export default ({type, color}) => <Container>

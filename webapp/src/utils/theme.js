@@ -1,6 +1,10 @@
 const theme =   {
-    header_bg: 'red',
-    black: '#000'
+    headerBg: '#000',
+    headerTextColor: '#FFF',
+    textColor: '#333',
+    LinkColor: '#0082c8',
+    btnColor: '#0082c8',
+    btnDefaultColor: '#111'
 }
 
 let colors = [];

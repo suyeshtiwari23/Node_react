@@ -8,16 +8,18 @@ import Header from './components/AppHeader'
 import publicPage from './routes/PublicPage'
 import login from './routes/Login'
 import theme from './routes/Theme'
+import applyTheme from './components/ApplyTheme'
 
+const ThemedHeader = applyTheme(Header)
 class App extends Component {
     render () {
         return (
             <div>
-                <Header/>
+                <ThemedHeader/>
                 <Router history={hashHistory}>
-                    <Route path="/" component={publicPage} />
-                    <Route path="/login" component={login} />
-                    <Route path="/theme" component={theme} testprop="hello"/>
+                    <Route path="/" component={applyTheme(publicPage)} />
+                    <Route path="/login" component={applyTheme(login)} />
+                    <Route path="/theme" component={applyTheme(theme)} />
                 </Router>
             </div>
         )
